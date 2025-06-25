@@ -509,12 +509,14 @@
 
 }
 
+    
+
 /* Section5 */
 
 .section5{
     width: 100%;
     /* margin: auto; */
-    padding: 0 100px;
+    padding: 0 50px;
     background-image: url(bg-01.jpg);
     background-position: center center;
     background-repeat: no-repeat;
@@ -531,6 +533,7 @@
     width: 40%;
     position: relative;
     /* border: 2px solid red; */
+    margin: 0 20px;
 }
 .section5 .image img{
     width: 100%;
@@ -539,7 +542,7 @@
 
 .section5 .image .dots-box{
     position: absolute;
-    /* border: 2px solid #000; */
+    border: 2px solid #000;
     width: 100%;
     bottom: 30px;
     display: flex;
@@ -566,15 +569,17 @@
 
 
 .skill-container {
-    width: 55%;
+    width: 100%;
     /* border: 2px solid red; */
     margin: 0 auto;
-    padding: 20px;
+    /* padding: 20px; */
     font-family: Arial, sans-serif;
 }
 
 .skill-item {
     margin-bottom: 15px;
+    width: 100%;
+    /* border: 2px solid blue; */
 }
 
 .skill-label {
@@ -586,7 +591,7 @@
 
 .progress-container {
     height: 25px;
-    width: 90%;
+    width: 100%;
     /* border: 2px solid red; */
     background-color: #f5f5f5;
     border-radius: 3px;
@@ -595,6 +600,7 @@
 
 .progress-bar {
     height: 100%;
+    /* border: 2px solid red; */
     background-color: #5BB12F;
     position: relative;
 }
@@ -637,7 +643,7 @@
 
 /* The filling bar */
 .progress-bar {
-  width: 0;                    /* start at zero */
+  /* width: 0;                    start at zero */
   height: 24px;
   background: #5bb12f;
   position: relative;
@@ -653,7 +659,6 @@
   color: #fff;
   font-weight: bold;
 }
-
 
 
 /* Section 6 */
